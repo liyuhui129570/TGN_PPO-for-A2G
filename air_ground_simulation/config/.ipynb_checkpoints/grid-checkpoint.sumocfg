@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+  <input>
+    <net-file value="grid.net.xml"/>
+    <route-files value="routes.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="3000"/>
+    <step-length value="0.1"/>
+  </time>
+  <processing>
+    <collision.action value="warn"/>
+  </processing>
+  <output>
+    <tripinfo-output value="tripinfo.xml"/>
+    <summary-output value="summary.xml"/>
+  </output>
+    <traci_server>
+	<processing>
+		<time-to-teleport value="100"/>
+	</processing>
+         <remote-port value="8813"/>
+    </traci_server>
+</configuration>

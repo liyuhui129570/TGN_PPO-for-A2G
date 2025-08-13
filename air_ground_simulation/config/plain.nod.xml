@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-08-11 13:09:48 by Eclipse SUMO netconvert Version 1.23.1
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="sumo_files/grid.net.xml"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="sumo_files/plain"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.avoid-overlap value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="0"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.50"/>
+        <rectangular-lane-cut value="0"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="0"/>
+    </pedestrian>
+
+</netconvertConfiguration>
+-->
+
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="0.00,0.00" convBoundary="0.00,0.00,1000.00,1000.00" origBoundary="0.00,0.00,1000.00,1000.00" projParameter="!"/>
+
+    <node id="A1" x="0.00" y="200.00" type="priority"/>
+    <node id="A2" x="0.00" y="400.00" type="priority"/>
+    <node id="A3" x="0.00" y="600.00" type="priority"/>
+    <node id="A4" x="0.00" y="800.00" type="priority"/>
+    <node id="B0" x="200.00" y="0.00" type="priority"/>
+    <node id="B1" x="200.00" y="200.00" type="priority"/>
+    <node id="B2" x="200.00" y="400.00" type="priority"/>
+    <node id="B3" x="200.00" y="600.00" type="priority"/>
+    <node id="B4" x="200.00" y="800.00" type="priority"/>
+    <node id="B5" x="200.00" y="1000.00" type="priority"/>
+    <node id="C0" x="400.00" y="0.00" type="priority"/>
+    <node id="C1" x="400.00" y="200.00" type="priority"/>
+    <node id="C2" x="400.00" y="400.00" type="priority"/>
+    <node id="C3" x="400.00" y="600.00" type="priority"/>
+    <node id="C4" x="400.00" y="800.00" type="priority"/>
+    <node id="C5" x="400.00" y="1000.00" type="priority"/>
+    <node id="D0" x="600.00" y="0.00" type="priority"/>
+    <node id="D1" x="600.00" y="200.00" type="priority"/>
+    <node id="D2" x="600.00" y="400.00" type="priority"/>
+    <node id="D3" x="600.00" y="600.00" type="priority"/>
+    <node id="D4" x="600.00" y="800.00" type="priority"/>
+    <node id="D5" x="600.00" y="1000.00" type="priority"/>
+    <node id="E0" x="800.00" y="0.00" type="priority"/>
+    <node id="E1" x="800.00" y="200.00" type="priority"/>
+    <node id="E2" x="800.00" y="400.00" type="priority"/>
+    <node id="E3" x="800.00" y="600.00" type="priority"/>
+    <node id="E4" x="800.00" y="800.00" type="priority"/>
+    <node id="E5" x="800.00" y="1000.00" type="priority"/>
+    <node id="F1" x="1000.00" y="200.00" type="priority"/>
+    <node id="F2" x="1000.00" y="400.00" type="priority"/>
+    <node id="F3" x="1000.00" y="600.00" type="priority"/>
+    <node id="F4" x="1000.00" y="800.00" type="priority"/>
+</nodes>
